@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="KNOCK, INC. — ティールのコンセントにコーラルのプラグが差し込まれる絵">
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="14" fill="#1d1b19" stroke="#36322f"/>
+  <text x="64" y="132" fill="#f2ece6" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="56" font-weight="700" letter-spacing="2">KNOCK, INC.</text>
+  <text x="66" y="180" fill="#ada39b" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="3">TOOLS FOR BUILDING WITH AI</text>
+  <g transform="translate(640 110)">
+    <rect x="0" y="37" width="190" height="6" rx="3" fill="#5fc4ab"/>
+    <rect x="186" y="6" width="56" height="68" rx="12" fill="#15392f" stroke="#5fc4ab" stroke-width="2"/>
+    <circle cx="214" cy="26" r="5" fill="#1d1b19"/>
+    <circle cx="214" cy="54" r="5" fill="#1d1b19"/>
+    <rect x="266" y="21" width="28" height="9" rx="2" fill="#ff8a65"/>
+    <rect x="266" y="50" width="28" height="9" rx="2" fill="#ff8a65"/>
+    <rect x="292" y="2" width="62" height="76" rx="12" fill="#ff8a65"/>
+    <rect x="354" y="37" width="140" height="6" rx="3" fill="#ff8a65"/>
+  </g>
+</svg>
