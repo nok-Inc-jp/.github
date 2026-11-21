@@ -30,3 +30,11 @@ pipe-in --project ~/src/myapp --text "ユーザー一覧に CSV 出力ボタン�
 ```
 
 <!-- TODO: サイト・Zenn・Qiita・note・お問い合わせ先の URL が決まったら、「書いていること」の節を足す -->
+
+### リポジトリの状況
+
+<sub>GitHub Actions が6時間ごとに確かめて、変わったときだけ書き換えます（[動きを見る](https://github.com/nok-Inc-jp/.github/actions/workflows/repo-status.yml)）。</sub>
+
+<!-- repo-status:start -->
+（最初の実行を待っています）
+<!-- repo-status:end -->
