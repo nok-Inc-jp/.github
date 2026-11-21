@@ -1,0 +1,43 @@
+name: リポジトリの状況
+
+on:
+  schedule:
+    - cron: "17 */6 * * *" # 6時間ごと（UTC）
+  workflow_dispatch: {}
+
+permissions:
+  contents: write # 書き換えた README をこのリポジトリに push する
+
+concurrency:
+  group: repo-status
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: テスト
+        run: python3 -m unittest discover -s tests -v
+
+      - name: 状況を集めて README に書く
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 公開リポジトリを読むだけなので、最初から付いてくる鍵で足りる
+        run: python3 scripts/repo_status.py --org "${{ github.repository_owner }}" --readme profile/README.md
+
+      - name: 変わっていれば push
+        run: |
+          if git diff --quiet; then
+            echo "変わりなし"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "リポジトリの状況を更新"
+          git push
