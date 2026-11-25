@@ -36,11 +36,11 @@ pipe-in --project ~/src/myapp --text "ユーザー一覧に CSV 出力ボタン�
 <sub>GitHub Actions が6時間ごとに確かめて、変わったときだけ書き換えます（[動きを見る](https://github.com/nok-Inc-jp/.github/actions/workflows/repo-status.yml)）。</sub>
 
 <!-- repo-status:start -->
-リポジトリ **3** · 開いている PR **0** · CI が失敗 **0**　<sub>表が変わった時刻 2026-11-21 23:38 JST</sub>
+リポジトリ **3** · 開いている PR **0** · CI が失敗 **0**　<sub>表が変わった時刻 2026-11-25 17:30 JST</sub>
 
 | リポジトリ | 最後の push | PR | Issue | CI（既定ブランチ） | 最新の版 |
 | --- | --- | ---: | ---: | --- | --- |
+| [nok-plugins](https://github.com/nok-Inc-jp/nok-plugins) | 2026-11-25 | 0 | 0 | ✅ 通過 | — |
 | [.github](https://github.com/nok-Inc-jp/.github) | 2026-11-21 | 0 | 0 | — なし | — |
-| [nok-plugins](https://github.com/nok-Inc-jp/nok-plugins) | 2026-11-21 | 0 | 0 | ✅ 通過 | — |
 | [nok-pipe-in](https://github.com/nok-Inc-jp/nok-pipe-in)<br><sub>要件メモから 要件定義→設計→テスト先行→実装→検証 を Claude Agent SDK で流すパイプラインと、実行を図で見る VSCode 拡張</sub> | 2026-11-21 | 0 | 21 | ✅ 通過 | — |
 <!-- repo-status:end -->
