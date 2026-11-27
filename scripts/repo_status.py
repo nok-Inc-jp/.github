@@ -102,7 +102,7 @@ CI_LABEL = {
     "EXPECTED": "🔄 動いている",
 }
 
-# ロゴとサイトと同じ色（nigoh/nok の public/brand/ と src/styles/globals.css）。
+# ロゴとサイト（nok-inc.jp）と同じ色。
 # PR の公開分はロゴの扉の青、非公開分は控えめな灰青（どちらも地に対して 3:1 以上）。
 PALETTE = {
     "light": {"bg": "#fafbfe", "line": "#dbe2ec", "fg": "#0f2b4c", "muted": "#617083", "public": "#1565c0", "private": "#78899f"},
