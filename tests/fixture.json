@@ -1,6 +1,32 @@
-[
-  {"name": "nok-pipe-in", "url": "https://github.com/nok-Inc-jp/nok-pipe-in", "description": "要件メモから開発の流れを流す", "isPrivate": false, "isArchived": false, "isFork": false, "pushedAt": "2026-11-21T02:22:16Z", "pullRequests": {"totalCount": 2}, "issues": {"totalCount": 5}, "latestRelease": {"tagName": "v0.4.0", "publishedAt": "2026-11-01T00:00:00Z"}, "defaultBranchRef": {"name": "main", "target": {"statusCheckRollup": {"state": "SUCCESS"}}}},
-  {"name": "nok-plugins", "url": "https://github.com/nok-Inc-jp/nok-plugins", "description": "プラグインを | 配る", "isPrivate": false, "isArchived": false, "isFork": false, "pushedAt": "2026-11-20T10:00:00Z", "pullRequests": {"totalCount": 1}, "issues": {"totalCount": 0}, "latestRelease": null, "defaultBranchRef": {"name": "main", "target": {"statusCheckRollup": {"state": "FAILURE"}}}},
-  {"name": "secret-tool", "url": "https://github.com/nok-Inc-jp/secret-tool", "description": "出てはいけない", "isPrivate": true, "isArchived": false, "isFork": false, "pushedAt": null, "pullRequests": {"totalCount": 9}, "issues": {"totalCount": 0}, "latestRelease": null, "defaultBranchRef": null},
-  {"name": "old-thing", "url": "https://github.com/nok-Inc-jp/old-thing", "description": "", "isPrivate": false, "isArchived": true, "isFork": false, "pushedAt": "2025-01-01T00:00:00Z", "pullRequests": {"totalCount": 0}, "issues": {"totalCount": 0}, "latestRelease": null, "defaultBranchRef": null}
-]
+{
+  "private": false,
+  "marketplace": "https://github.com/nok-Inc-jp/nok-plugins",
+  "repos": [
+    {"name": "nok-pipe-in", "url": "https://github.com/nok-Inc-jp/nok-pipe-in", "isPrivate": false, "isArchived": false, "isFork": false, "pushedAt": "2026-11-21T02:22:16Z"},
+    {"name": "nok-plugins", "url": "https://github.com/nok-Inc-jp/nok-plugins", "isPrivate": false, "isArchived": false, "isFork": false, "pushedAt": "2026-11-26T19:10:49Z"},
+    {"name": ".github", "url": "https://github.com/nok-Inc-jp/.github", "isPrivate": false, "isArchived": false, "isFork": false, "pushedAt": "2026-11-27T08:27:43Z"},
+    {"name": "secret-tool", "url": "https://github.com/nok-Inc-jp/secret-tool", "isPrivate": true, "isArchived": false, "isFork": false, "pushedAt": "2026-11-26T00:00:00Z"},
+    {"name": "old-thing", "url": "https://github.com/nok-Inc-jp/old-thing", "isPrivate": false, "isArchived": true, "isFork": false, "pushedAt": "2026-11-25T00:00:00Z"}
+  ],
+  "pulls": [
+    {"title": "feat(pipe-in): パイプを足す", "url": "https://github.com/nok-Inc-jp/nok-pipe-in/pull/160", "mergedAt": "2026-11-22T15:30:00Z", "author": {"__typename": "User", "login": "nigoh"}, "repository": {"name": "nok-pipe-in", "isPrivate": false}},
+    {"title": "chore: 参照先を直す", "url": "https://github.com/nok-Inc-jp/nok-pipe-in/pull/159", "mergedAt": "2026-11-22T14:30:00Z", "author": {"__typename": "User", "login": "nigoh"}, "repository": {"name": "nok-pipe-in", "isPrivate": false}},
+    {"title": "fushin・toryo・takumi を一覧に足す", "url": "https://github.com/nok-Inc-jp/nok-plugins/pull/7", "mergedAt": "2026-11-21T02:00:00Z", "author": {"__typename": "User", "login": "nigoh"}, "repository": {"name": "nok-plugins", "isPrivate": false}},
+    {"title": "表の [縦線] | を *壊さない* <b>太字</b>", "url": "https://github.com/nok-Inc-jp/nok-plugins/pull/6", "mergedAt": "2026-11-10T00:00:00Z", "author": {"__typename": "User", "login": "nigoh"}, "repository": {"name": "nok-plugins", "isPrivate": false}},
+    {"title": "Bump actions/checkout", "url": "https://github.com/nok-Inc-jp/nok-pipe-in/pull/161", "mergedAt": "2026-11-24T00:00:00Z", "author": {"__typename": "Bot", "login": "dependabot"}, "repository": {"name": "nok-pipe-in", "isPrivate": false}},
+    {"title": "秘密の機能", "url": "https://github.com/nok-Inc-jp/secret-tool/pull/3", "mergedAt": "2026-11-24T00:00:00Z", "author": {"__typename": "User", "login": "nigoh"}, "repository": {"name": "secret-tool", "isPrivate": true}},
+    {"title": "秘密の機能その二", "url": "https://github.com/nok-Inc-jp/secret-tool/pull/4", "mergedAt": "2026-11-25T00:00:00Z", "author": {"__typename": "User", "login": "nigoh"}, "repository": {"name": "secret-tool", "isPrivate": true}},
+    {"title": "公開トップを足す", "url": "https://github.com/nok-Inc-jp/.github/pull/1", "mergedAt": "2026-11-24T02:00:00Z", "author": {"__typename": "User", "login": "nigoh"}, "repository": {"name": ".github", "isPrivate": false}},
+    {"title": "とても古い PR", "url": "https://github.com/nok-Inc-jp/nok-pipe-in/pull/1", "mergedAt": "2026-08-01T00:00:00Z", "author": {"__typename": "User", "login": "nigoh"}, "repository": {"name": "nok-pipe-in", "isPrivate": false}}
+  ],
+  "plugins": [
+    {"name": "konomi", "category": "design", "description": "長い説明", "repo": "https://github.com/nok-Inc-jp/secret-konomi", "isPrivate": true, "updatedAt": "2026-11-23T01:03:50Z"},
+    {"name": "pipe-in", "category": "development", "description": "長い説明", "repo": "https://github.com/nok-Inc-jp/nok-pipe-in", "isPrivate": false, "updatedAt": "2026-11-21T02:22:16Z"},
+    {"name": "ranbiki", "category": "development", "description": "長い説明", "repo": "https://github.com/nok-Inc-jp/secret-ranbiki", "isPrivate": true, "updatedAt": "2026-11-21T02:22:25Z"},
+    {"name": "fude", "category": "productivity", "description": "長い説明", "repo": "https://github.com/nok-Inc-jp/secret-fude", "isPrivate": true, "updatedAt": "2026-11-26T16:33:18Z"},
+    {"name": "fushin", "category": "development", "description": "長い説明", "repo": "https://github.com/nok-Inc-jp/secret-fushin", "isPrivate": true, "updatedAt": "2026-11-21T02:29:21Z"},
+    {"name": "toryo", "category": "development", "description": "長い説明", "repo": "https://github.com/nok-Inc-jp/secret-toryo", "isPrivate": true, "updatedAt": "2026-11-21T02:28:56Z"},
+    {"name": "takumi", "category": "security", "description": "長い説明", "repo": "https://github.com/nok-Inc-jp/secret-takumi", "isPrivate": true, "updatedAt": "2026-11-21T02:28:31Z"},
+    {"name": "shinjin", "category": "development", "description": "新しく足したプラグイン", "repo": null, "isPrivate": true, "updatedAt": null}
+  ]
+}

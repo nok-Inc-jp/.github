@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-label="開発フローの図。要件定義（fushin） → 設計（toryo） → 実装（pipe-in・konomi、11/21 更新） → 点検（takumi）。工程の区切りごとに人がレビューする。">
+  <rect x="0.5" y="0.5" width="1199" height="469" rx="14" fill="#10294a" stroke="#24476f"/>
+  <text x="1167" y="54" fill="#a9bfdd" font-family="'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', Meiryo, sans-serif" font-size="24" font-weight="700" text-anchor="end">工程の区切りごとに人がレビュー</text>
+  <rect x="33" y="80" width="246" height="262" rx="12" fill="#142f56"/>
+  <text x="53" y="132" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28" font-weight="700" fill="#7cc0ff">1</text>
+  <text x="85" y="134" font-family="'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', Meiryo, sans-serif" font-size="36" font-weight="700" fill="#fafbfe">要件定義</text>
+  <text x="53" y="172" font-family="'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', Meiryo, sans-serif" font-size="22" fill="#a9bfdd">何を作るか</text>
+  <text x="53" y="226" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28" font-weight="700" fill="#fafbfe">fushin</text>
+  <line x1="304.0" x2="304.0" y1="80" y2="342" stroke="#78899f" stroke-width="2" stroke-dasharray="6 6"/>
+  <circle cx="304.0" cy="211.0" r="20" fill="#10294a" stroke="#7cc0ff" stroke-width="3"/>
+  <circle cx="304.0" cy="205.0" r="5.5" fill="#7cc0ff"/>
+  <path d="M294.0 223.0 q10 -15 20 0 z" fill="#7cc0ff"/>
+  <rect x="329" y="80" width="246" height="262" rx="12" fill="#142f56"/>
+  <text x="349" y="132" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28" font-weight="700" fill="#7cc0ff">2</text>
+  <text x="381" y="134" font-family="'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', Meiryo, sans-serif" font-size="36" font-weight="700" fill="#fafbfe">設計</text>
+  <text x="349" y="172" font-family="'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', Meiryo, sans-serif" font-size="22" fill="#a9bfdd">どう作るか</text>
+  <text x="349" y="226" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28" font-weight="700" fill="#fafbfe">toryo</text>
+  <line x1="600.0" x2="600.0" y1="80" y2="342" stroke="#78899f" stroke-width="2" stroke-dasharray="6 6"/>
+  <circle cx="600.0" cy="211.0" r="20" fill="#10294a" stroke="#7cc0ff" stroke-width="3"/>
+  <circle cx="600.0" cy="205.0" r="5.5" fill="#7cc0ff"/>
+  <path d="M590.0 223.0 q10 -15 20 0 z" fill="#7cc0ff"/>
+  <rect x="625" y="80" width="246" height="262" rx="12" fill="#142f56"/>
+  <text x="645" y="132" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28" font-weight="700" fill="#7cc0ff">3</text>
+  <text x="677" y="134" font-family="'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', Meiryo, sans-serif" font-size="36" font-weight="700" fill="#fafbfe">実装</text>
+  <text x="645" y="172" font-family="'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', Meiryo, sans-serif" font-size="22" fill="#a9bfdd">テストから書く</text>
+  <text x="645" y="226" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28" font-weight="700" fill="#fafbfe">pipe-in</text>
+  <text x="645" y="262" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28" font-weight="700" fill="#fafbfe">konomi</text>
+  <rect x="645" y="270" width="206" height="2" fill="#24476f"/>
+  <text x="645" y="318" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="26" font-weight="700" fill="#7cc0ff" text-anchor="start">11/21<tspan font-family="'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', Meiryo, sans-serif" font-size="18" font-weight="400" fill="#a9bfdd" dx="8">更新</tspan></text>
+  <line x1="896.0" x2="896.0" y1="80" y2="342" stroke="#78899f" stroke-width="2" stroke-dasharray="6 6"/>
+  <circle cx="896.0" cy="211.0" r="20" fill="#10294a" stroke="#7cc0ff" stroke-width="3"/>
+  <circle cx="896.0" cy="205.0" r="5.5" fill="#7cc0ff"/>
+  <path d="M886.0 223.0 q10 -15 20 0 z" fill="#7cc0ff"/>
+  <rect x="921" y="80" width="246" height="262" rx="12" fill="#142f56"/>
+  <text x="941" y="132" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28" font-weight="700" fill="#7cc0ff">4</text>
+  <text x="973" y="134" font-family="'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', Meiryo, sans-serif" font-size="36" font-weight="700" fill="#fafbfe">点検</text>
+  <text x="941" y="172" font-family="'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', Meiryo, sans-serif" font-size="22" fill="#a9bfdd">セキュリティ</text>
+  <text x="941" y="226" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28" font-weight="700" fill="#fafbfe">takumi</text>
+  <text x="33" y="414" font-family="'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', Meiryo, sans-serif" font-size="22" fill="#a9bfdd">その他</text>
+  <rect x="129" y="376" width="507" height="58" rx="29" fill="none" stroke="#78899f" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="155" y="414" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="24" font-weight="700" fill="#fafbfe">fude<tspan font-family="'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', Meiryo, sans-serif" font-size="20" font-weight="400" fill="#a9bfdd" dx="14">記事の執筆</tspan></text>
+  <rect x="660" y="376" width="507" height="58" rx="29" fill="none" stroke="#78899f" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="686" y="414" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="24" font-weight="700" fill="#fafbfe">ranbiki<tspan font-family="'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', Meiryo, sans-serif" font-size="20" font-weight="400" fill="#a9bfdd" dx="14">スキルの蒸留</tspan></text>
+</svg>

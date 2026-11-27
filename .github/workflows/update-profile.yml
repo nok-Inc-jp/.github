@@ -1,0 +1,52 @@
+name: 組織トップの更新
+
+on:
+  schedule:
+    - cron: "17 */6 * * *" # 6時間ごと（UTC）
+  workflow_dispatch: {}
+  push: # スクリプトや README を変えたときは、定期実行を待たずに更新する（bot の push では起動しない）
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "profile/README.md"
+      - ".github/workflows/update-profile.yml"
+
+permissions:
+  contents: write # 更新した README と画像をこのリポジトリに push するため
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: テスト
+        run: python3 -m unittest discover -s tests -v
+
+      - name: データを集めて README と画像を更新
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 公開リポジトリの読み取りは標準のトークンで足りる
+          # 設定されている場合のみ、非公開リポジトリの件数とプラグインの更新日も集計する（名前や内容は出力しない）
+          ACTIVITY_TOKEN: ${{ secrets.ACTIVITY_TOKEN }}
+        run: python3 scripts/update_profile.py --org "${{ github.repository_owner }}" --readme profile/README.md
+
+      - name: 変更があれば push
+        run: |
+          git add profile/README.md profile/assets/
+          if git diff --cached --quiet; then
+            echo "変更なし"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "組織トップを更新"
+          git push
