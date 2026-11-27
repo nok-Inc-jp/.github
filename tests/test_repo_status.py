@@ -84,8 +84,8 @@ class RepoStatusTest(unittest.TestCase):
             self.assertIn(">PULL REQUESTS MERGED<", s)
             self.assertEqual(s.count(">11/16<"), 1)  # 今週のラベル
             self.assertNotIn("PRIVATE", s)  # 非公開を入れないときは凡例も出さない
-        self.assertIn("#ff8a65", self.svg("dark"))
-        self.assertIn("#c2471f", self.svg("light"))
+        self.assertIn("#7cc0ff", self.svg("dark"))
+        self.assertIn("#1565c0", self.svg("light"))
 
     def test_private_counts_only(self):
         text = self.run_at(fixture=self.with_private())

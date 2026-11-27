@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="KNOCK, INC. — ティールのコンセントにコーラルのプラグが差し込まれる絵" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/nok-signature-h-reversed.svg">
+  <img src="assets/nok-signature-h.svg" alt="NOK 株式会社ノック" width="400">
 </picture>
 
 ## 差して、流して、確かめながら作る。

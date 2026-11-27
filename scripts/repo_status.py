@@ -102,10 +102,11 @@ CI_LABEL = {
     "EXPECTED": "🔄 動いている",
 }
 
-# 見出しの絵（banner-*.svg）と同じ色。PR の公開分はプラグのコーラル、非公開分はコンセントのティール。
+# ロゴとサイトと同じ色（nigoh/nok の public/brand/ と src/styles/globals.css）。
+# PR の公開分はロゴの扉の青、非公開分は控えめな灰青（どちらも地に対して 3:1 以上）。
 PALETTE = {
-    "light": {"bg": "#f6f6f4", "line": "#e4ded8", "fg": "#23201e", "muted": "#6b625c", "public": "#c2471f", "private": "#167d6b"},
-    "dark": {"bg": "#1d1b19", "line": "#36322f", "fg": "#f2ece6", "muted": "#ada39b", "public": "#ff8a65", "private": "#5fc4ab"},
+    "light": {"bg": "#fafbfe", "line": "#dbe2ec", "fg": "#0f2b4c", "muted": "#617083", "public": "#1565c0", "private": "#78899f"},
+    "dark": {"bg": "#10294a", "line": "#24476f", "fg": "#fafbfe", "muted": "#a9bfdd", "public": "#7cc0ff", "private": "#78899f"},
 }
 MONO = "'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace"
 
