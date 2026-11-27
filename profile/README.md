@@ -15,6 +15,12 @@
 | **道具を配る** | Claude Code のプラグインを、ひとつのマーケットプレイスから入れられます。 | [nok-plugins](https://github.com/nok-Inc-jp/nok-plugins) |
 | **業務アプリを作る** | 中小企業の業務アプリを、何を作るかから運用まで一緒に決めて作ります。 | |
 
+### 動いているところ
+
+<!-- activity:start -->
+（最初の実行を待っています）
+<!-- activity:end -->
+
 ### すぐ試す
 
 ```bash

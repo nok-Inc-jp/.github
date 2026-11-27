@@ -1,6 +1,42 @@
-[
-  {"name": "nok-pipe-in", "url": "https://github.com/nok-Inc-jp/nok-pipe-in", "description": "要件メモから開発の流れを流す", "isPrivate": false, "isArchived": false, "isFork": false, "pushedAt": "2026-11-21T02:22:16Z", "pullRequests": {"totalCount": 2}, "issues": {"totalCount": 5}, "latestRelease": {"tagName": "v0.4.0", "publishedAt": "2026-11-01T00:00:00Z"}, "defaultBranchRef": {"name": "main", "target": {"statusCheckRollup": {"state": "SUCCESS"}}}},
-  {"name": "nok-plugins", "url": "https://github.com/nok-Inc-jp/nok-plugins", "description": "プラグインを | 配る", "isPrivate": false, "isArchived": false, "isFork": false, "pushedAt": "2026-11-20T10:00:00Z", "pullRequests": {"totalCount": 1}, "issues": {"totalCount": 0}, "latestRelease": null, "defaultBranchRef": {"name": "main", "target": {"statusCheckRollup": {"state": "FAILURE"}}}},
-  {"name": "secret-tool", "url": "https://github.com/nok-Inc-jp/secret-tool", "description": "出てはいけない", "isPrivate": true, "isArchived": false, "isFork": false, "pushedAt": null, "pullRequests": {"totalCount": 9}, "issues": {"totalCount": 0}, "latestRelease": null, "defaultBranchRef": null},
-  {"name": "old-thing", "url": "https://github.com/nok-Inc-jp/old-thing", "description": "", "isPrivate": false, "isArchived": true, "isFork": false, "pushedAt": "2025-01-01T00:00:00Z", "pullRequests": {"totalCount": 0}, "issues": {"totalCount": 0}, "latestRelease": null, "defaultBranchRef": null}
-]
+{
+  "private": false,
+  "repos": [
+    {"name": "nok-pipe-in", "url": "https://github.com/nok-Inc-jp/nok-pipe-in", "description": "要件メモから開発の流れを流す", "isPrivate": false, "isArchived": false, "isFork": false, "pushedAt": "2026-11-21T02:22:16Z", "pullRequests": {"totalCount": 2}, "issues": {"totalCount": 5}, "latestRelease": {"tagName": "v0.4.0", "publishedAt": "2026-11-01T00:00:00Z"}, "releases": {"nodes": [{"tagName": "v0.5.0", "url": "https://github.com/nok-Inc-jp/nok-pipe-in/releases/tag/v0.5.0", "publishedAt": null, "isDraft": true}, {"tagName": "v0.4.0", "url": "https://github.com/nok-Inc-jp/nok-pipe-in/releases/tag/v0.4.0", "publishedAt": "2026-11-01T00:00:00Z", "isDraft": false}]}, "defaultBranchRef": {"name": "main", "target": {"statusCheckRollup": {"state": "SUCCESS"}}}},
+    {"name": "nok-plugins", "url": "https://github.com/nok-Inc-jp/nok-plugins", "description": "プラグインを | 配る", "isPrivate": false, "isArchived": false, "isFork": false, "pushedAt": "2026-11-20T10:00:00Z", "pullRequests": {"totalCount": 1}, "issues": {"totalCount": 0}, "latestRelease": null, "releases": {"nodes": []}, "defaultBranchRef": {"name": "main", "target": {"statusCheckRollup": {"state": "FAILURE"}}}},
+    {"name": ".github", "url": "https://github.com/nok-Inc-jp/.github", "description": "", "isPrivate": false, "isArchived": false, "isFork": false, "pushedAt": "2026-11-21T02:30:00Z", "pullRequests": {"totalCount": 0}, "issues": {"totalCount": 0}, "latestRelease": null, "defaultBranchRef": {"name": "main", "target": null}},
+    {"name": "secret-tool", "url": "https://github.com/nok-Inc-jp/secret-tool", "description": "出てはいけない", "isPrivate": true, "isArchived": false, "isFork": false, "pushedAt": null, "pullRequests": {"totalCount": 9}, "issues": {"totalCount": 0}, "latestRelease": null, "releases": {"nodes": [{"tagName": "secret-v1", "url": "https://github.com/nok-Inc-jp/secret-tool/releases/tag/secret-v1", "publishedAt": "2026-11-18T00:00:00Z", "isDraft": false}]}, "defaultBranchRef": null},
+    {"name": "old-thing", "url": "https://github.com/nok-Inc-jp/old-thing", "description": "", "isPrivate": false, "isArchived": true, "isFork": false, "pushedAt": "2025-01-01T00:00:00Z", "pullRequests": {"totalCount": 0}, "issues": {"totalCount": 0}, "latestRelease": null, "defaultBranchRef": null}
+  ],
+  "commits": {
+    "nok-pipe-in": [
+      {"committedDate": "2026-11-20T10:00:00Z", "author": {"name": "nigo", "email": "nigo@example.com"}},
+      {"committedDate": "2026-11-20T11:00:00Z", "author": {"name": "nigo", "email": "nigo@example.com"}},
+      {"committedDate": "2026-11-15T16:30:00Z", "author": {"name": "nigo", "email": "nigo@example.com"}},
+      {"committedDate": "2026-11-03T01:00:00Z", "author": {"name": "nigo", "email": "nigo@example.com"}},
+      {"committedDate": "2026-11-03T02:00:00Z", "author": {"name": "dependabot[bot]", "email": "49699333+dependabot[bot]@users.noreply.github.com"}}
+    ],
+    "nok-plugins": [
+      {"committedDate": "2026-11-19T00:00:00Z", "author": {"name": "nigo", "email": "nigo@example.com"}},
+      {"committedDate": "2026-08-30T14:00:00Z", "author": {"name": "nigo", "email": "nigo@example.com"}}
+    ],
+    ".github": [
+      {"committedDate": "2026-11-21T02:00:00Z", "author": {"name": "github-actions[bot]", "email": "41898282+github-actions[bot]@users.noreply.github.com"}},
+      {"committedDate": "2026-11-21T01:00:00Z", "author": {"name": "nigo", "email": "nigo@example.com"}}
+    ],
+    "secret-tool": [
+      {"committedDate": "2026-11-19T00:00:00Z", "author": {"name": "nigo", "email": "nigo@example.com"}},
+      {"committedDate": "2026-11-12T00:00:00Z", "author": {"name": "nigo", "email": "nigo@example.com"}}
+    ]
+  },
+  "pulls": [
+    {"title": "要件メモから CSV を出す", "url": "https://github.com/nok-Inc-jp/nok-pipe-in/pull/40", "mergedAt": "2026-11-20T11:00:00Z", "author": {"__typename": "User", "login": "nigoh"}, "repository": {"name": "nok-pipe-in", "isPrivate": false}},
+    {"title": "表の [縦線] | を *壊さない* <b>太字</b>", "url": "https://github.com/nok-Inc-jp/nok-pipe-in/pull/39", "mergedAt": "2026-11-15T16:00:00Z", "author": {"__typename": "User", "login": "nigoh"}, "repository": {"name": "nok-pipe-in", "isPrivate": false}},
+    {"title": "プラグインの一覧を足す", "url": "https://github.com/nok-Inc-jp/nok-plugins/pull/7", "mergedAt": "2026-11-15T14:00:00Z", "author": {"__typename": "User", "login": "nigoh"}, "repository": {"name": "nok-plugins", "isPrivate": false}},
+    {"title": "最初の版", "url": "https://github.com/nok-Inc-jp/nok-pipe-in/pull/12", "mergedAt": "2026-11-03T01:00:00Z", "author": {"__typename": "User", "login": "nigoh"}, "repository": {"name": "nok-pipe-in", "isPrivate": false}},
+    {"title": "Bump actions/checkout", "url": "https://github.com/nok-Inc-jp/nok-pipe-in/pull/41", "mergedAt": "2026-11-19T00:00:00Z", "author": {"__typename": "Bot", "login": "dependabot"}, "repository": {"name": "nok-pipe-in", "isPrivate": false}},
+    {"title": "秘密の機能", "url": "https://github.com/nok-Inc-jp/secret-tool/pull/3", "mergedAt": "2026-11-18T00:00:00Z", "author": {"__typename": "User", "login": "nigoh"}, "repository": {"name": "secret-tool", "isPrivate": true}},
+    {"title": "秘密の機能その二", "url": "https://github.com/nok-Inc-jp/secret-tool/pull/4", "mergedAt": "2026-11-20T00:00:00Z", "author": {"__typename": "User", "login": "nigoh"}, "repository": {"name": "secret-tool", "isPrivate": true}},
+    {"title": "公開トップを足す", "url": "https://github.com/nok-Inc-jp/.github/pull/1", "mergedAt": "2026-11-21T02:00:00Z", "author": {"__typename": "User", "login": "nigoh"}, "repository": {"name": ".github", "isPrivate": false}},
+    {"title": "とても古い PR", "url": "https://github.com/nok-Inc-jp/nok-pipe-in/pull/1", "mergedAt": "2026-08-01T00:00:00Z", "author": {"__typename": "User", "login": "nigoh"}, "repository": {"name": "nok-pipe-in", "isPrivate": false}}
+  ]
+}
