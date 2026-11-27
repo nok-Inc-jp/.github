@@ -5,7 +5,7 @@ on:
     - cron: "17 */6 * * *" # 6時間ごと（UTC）
   workflow_dispatch: {}
   push: # スクリプトや README を変えたときは、定期実行を待たずに更新する（bot の push では起動しない）
-    branches: [main, claude/elegant-maxwell-k33i7k] # TODO: 動作確認用。確認後に main だけに戻す
+    branches: [main]
     paths:
       - "scripts/**"
       - "profile/README.md"
