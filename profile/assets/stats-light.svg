@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="開発状況。直近12週にマージした PR は 95 件（公開リポジトリ）。今週は 0 件。今週更新があったリポジトリは 1 件。">
+  <rect x="0.5" y="0.5" width="1199" height="229" rx="14" fill="#fafbfe" stroke="#dbe2ec"/>
+  <rect x="20.0" y="20" width="376.0" height="190" rx="10" fill="#e9eef5"/>
+  <text x="44.0" y="60" font-family="'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', Meiryo, sans-serif" font-size="20" font-weight="700" fill="#5b6b80">直近12週にマージした PR</text>
+  <text x="44.0" y="132" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="68" font-weight="700" fill="#1565c0">95</text>
+  <text x="44.0" y="192" font-family="'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', Meiryo, sans-serif" font-size="16" fill="#5b6b80">公開リポジトリのみ</text>
+  <rect x="412.0" y="20" width="376.0" height="190" rx="10" fill="#e9eef5"/>
+  <text x="436.0" y="60" font-family="'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', Meiryo, sans-serif" font-size="20" font-weight="700" fill="#5b6b80">今週マージした PR</text>
+  <text x="436.0" y="132" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="68" font-weight="700" fill="#1565c0">0</text>
+  <text x="436.0" y="192" font-family="'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', Meiryo, sans-serif" font-size="16" fill="#5b6b80">11/23（月）から</text>
+  <rect x="804.0" y="20" width="376.0" height="190" rx="10" fill="#e9eef5"/>
+  <text x="828.0" y="60" font-family="'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', Meiryo, sans-serif" font-size="20" font-weight="700" fill="#5b6b80">今週更新があったリポジトリ</text>
+  <text x="828.0" y="132" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="68" font-weight="700" fill="#1565c0">1</text>
+  <text x="828.0" y="192" font-family="'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', Meiryo, sans-serif" font-size="16" fill="#5b6b80">push があったもの</text>
+</svg>
